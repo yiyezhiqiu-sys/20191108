@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="yun.tc.AppTest" time="0.037" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\project-app\20191108\DevOne\dev-dao\target\test-classes;D:\project-app\20191108\DevOne\dev-dao\target\classes;D:\local_repository\junit\junit\4.11\junit-4.11.jar;D:\local_repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\developmentTool\jdk\jdk-install-dir\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\houbin\AppData\Local\Temp\surefire7042362766428511833\surefirebooter301444379048026899.jar C:\Users\houbin\AppData\Local\Temp\surefire7042362766428511833 2019-11-09T18-19-55_232-jvmRun1 surefire2936644968987885944tmp surefire_0811398377992157642tmp"/>
+    <property name="surefire.test.class.path" value="D:\project-app\20191108\DevOne\dev-dao\target\test-classes;D:\project-app\20191108\DevOne\dev-dao\target\classes;D:\local_repository\junit\junit\4.11\junit-4.11.jar;D:\local_repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\houbin"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\developmentTool\jdk\jdk-install-dir\jre"/>
+    <property name="basedir" value="D:\project-app\20191108\DevOne\dev-dao"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="idea.version2019.2.3" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\houbin\AppData\Local\Temp\surefire7042362766428511833\surefirebooter301444379048026899.jar"/>
+    <property name="sun.boot.class.path" value="D:\developmentTool\jdk\jdk-install-dir\jre\lib\resources.jar;D:\developmentTool\jdk\jdk-install-dir\jre\lib\rt.jar;D:\developmentTool\jdk\jdk-install-dir\jre\lib\sunrsasign.jar;D:\developmentTool\jdk\jdk-install-dir\jre\lib\jsse.jar;D:\developmentTool\jdk\jdk-install-dir\jre\lib\jce.jar;D:\developmentTool\jdk\jdk-install-dir\jre\lib\charsets.jar;D:\developmentTool\jdk\jdk-install-dir\jre\lib\jfr.jar;D:\developmentTool\jdk\jdk-install-dir\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="houbin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\developmentTool\jdk\jdk-install-dir\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\local_repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\houbin\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="D:\project-app\20191108\DevOne\dev-dao"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\developmentTool\jdk\jdk-install-dir\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\developmentTool\jdk\jdk-install-dir\bin;D:\developmentTool\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\developmentTool\mysql\mysql-server\mysql-5.6.42-winx64\mysql-5.6.42-winx64\bin;D:\developmentTool\redis\Redis-x64-3.2.100;D:\developmentTool\ant\apache-ant-1.9.14-bin\apache-ant-1.9.14\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\developmentTool\git\git.win.install\Git\cmd;C:\Users\houbin\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="D:\developmentTool\jdk\jdk-install-dir\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="yun.tc.AppTest" time="0.001"/>
+</testsuite>
