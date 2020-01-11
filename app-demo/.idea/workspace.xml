@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbf62af7-d7e2-4049-9966-73152de3d96e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-dao/src/main/java/com/mini/DemoDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-service/src/main/java/com/mini/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-web/src/main/java/com/mini/APP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-web/src/main/java/com/mini/TestDmo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-web/src/main/java/com/mini/controller/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-web/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-web/src/main/webapp/jsp/userlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read.maven.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/src/main/java/yun/tc/dao/Demotest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/src/main/java/yun/tc/dao/TestDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/src/test/java/yun/tc/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/classes/META-INF/devdao.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/classes/yun/tc/dao/TestDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/dev-dao-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/surefire-reports/TEST-yun.tc.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/surefire-reports/yun.tc.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/test-classes/yun/tc/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-service/src/main/java/yun/tc/service/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-service/src/test/java/yun/tc/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-service/target/classes/META-INF/devservice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-service/target/classes/yun/tc/service/TestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-service/target/test-classes/yun/tc/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-web/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-web/src/main/java/yun/DevWebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-web/src/main/java/yun/tc/devweb/controller/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-web/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/dev-web/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevOne/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/developmentTool/maven/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\developmentTool\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VxnwlRBcX2Gh6l2cziGEXQ5LlB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app-demo-web/src/main/webapp/jsp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project-app\20191108\app-demo\app-demo-web\src\main\webapp\jsp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="APP" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="app-demo-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mini.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mini.APP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.APP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbf62af7-d7e2-4049-9966-73152de3d96e" name="Default Changelist" comment="" />
+      <created>1578203854218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578203854218</updated>
+      <workItem from="1578203858268" duration="3000" />
+      <workItem from="1578203890738" duration="3947000" />
+      <workItem from="1578235093877" duration="411000" />
+      <workItem from="1578320945652" duration="226000" />
+      <workItem from="1578710241005" duration="801000" />
+      <workItem from="1578711073352" duration="1979000" />
+      <workItem from="1578713074935" duration="4582000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
