@@ -2,8 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-demo-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app-demo-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app-demo-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app-demo-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mini" charset="UTF-8" />
   </component>
 </project>

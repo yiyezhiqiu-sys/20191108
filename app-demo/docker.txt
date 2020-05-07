@@ -1,0 +1,19 @@
+下载docker 配置镜像仓库 配置镜像加速器
+启动docker引擎 systemctl start docker
+查看docker 启动状态信息 systemctl status docker
+停止docker 引擎 systemctl stop docker
+
+docker images 列出本地镜像
+docker pull centos:version 拉取镜像
+docker search tomcat 查看远程仓库中是否有tomcat镜像
+docker rmi id 删除镜像
+docker rm 容器id/容器name删除容器（不能删除正在运行的容器）
+docker run -it --name=c1 centos /bin/bash  创建交互是容器
+docker run -itd --name=c1 centos /bin/bash   创建守护实容器
+
+docker ps 查看正在运行的容器
+docker ps -a 查看运行过的容器（查看历史容器）
+docker stop c1/id停止容器
+docker start c1/id启动容器
+docker inspect c1 查看容器详细信息
+docker cp apache-tomcat-7.0.47.tar.gz 容器名称:/root 将tomcat copy到容器的root目录下

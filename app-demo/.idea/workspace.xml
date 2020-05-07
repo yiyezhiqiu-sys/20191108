@@ -2,63 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf62af7-d7e2-4049-9966-73152de3d96e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-demo-dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-demo-dao/src/main/java/com/mini/DemoDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-demo-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-demo-service/src/main/java/com/mini/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-demo-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-demo-web/src/main/java/com/mini/APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-demo-web/src/main/java/com/mini/TestDmo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-demo-web/src/main/java/com/mini/controller/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-demo-web/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-demo-web/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-demo-web/src/main/webapp/jsp/userlist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/read.maven.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/src/main/java/yun/tc/dao/Demotest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/src/main/java/yun/tc/dao/TestDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/src/test/java/yun/tc/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/classes/META-INF/devdao.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/classes/yun/tc/dao/TestDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/dev-dao-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/surefire-reports/TEST-yun.tc.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/surefire-reports/yun.tc.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-dao/target/test-classes/yun/tc/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-service/src/main/java/yun/tc/service/TestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-service/src/test/java/yun/tc/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-service/target/classes/META-INF/devservice.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-service/target/classes/yun/tc/service/TestService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-service/target/test-classes/yun/tc/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-web/src/main/java/yun/DevWebApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-web/src/main/java/yun/tc/devweb/controller/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-web/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/dev-web/src/main/webapp/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DevOne/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readme" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-client/src/main/java/com/mini/conf/DruidDBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-client/src/main/java/com/mini/conf/LineType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-client/src/test/java/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-client/src/test/java/DemoThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-client/src/test/java/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-client/src/test/java/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-client/src/test/java/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-client/src/test/java/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-client/src/test/java/TomcatStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-dao/src/test/java/com/mini/DemoJdk18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-dao/src/test/java/com/mini/IOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-dao/src/test/java/com/mini/NIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-dao/src/test/java/com/mini/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-dao/src/test/java/com/mini/NativeMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-dao/src/test/java/com/mini/NioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-dao/src/test/java/com/mini/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-service/src/main/java/com/mini/MtoService/MtoHelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-service/src/main/java/com/mini/MtoService/MtoHelloWorldImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-service/src/main/java/com/mini/MtoService/MtoTest1Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-service/src/main/java/com/mini/MtoService/MtoTest1ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-service/src/main/java/com/mini/client/HelloConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-service/src/main/java/com/mini/service/HelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-service/src/main/java/com/mini/service/HelloWorldServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-demo-web/src/main/java/com/test/ConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea快捷方式" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-cluster.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/系统监控.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-demo-dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-dao/target/classes/com/mini/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-dao/target/test-classes/com/mini/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-demo-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-service/src/main/java/com/mini/DemoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-service/target/classes/META-INF/app-demo-service.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-service/target/classes/com/mini/DemoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-demo-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-web/src/main/java/com/mini/TestDmo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-web/src/main/java/com/mini/controller/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-demo-web/src/main/java/com/mini/controller/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-web/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app-demo-web/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-demo-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-web/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app-demo-web/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-web/target/classes/com/mini/TestDmo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-demo-web/target/classes/com/mini/controller/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-demo-web/target/classes/com/mini/controller/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read.maven.doc" beforeDir="false" afterPath="$PROJECT_DIR$/read.maven.doc" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,12 +62,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
+        <option value="AnnotationType" />
+        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -98,21 +114,30 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app-demo-web/src/main/webapp/jsp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project-app\20191108\app-demo\app-demo-web\src\main\webapp\jsp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mini.conf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project-app\20191108\app-demo\app-demo-client\src" />
+      <recent name="D:\project-app\20191108\app-demo\app-demo-web\src\main\resources" />
+      <recent name="D:\project-app\20191108\app-demo\app-demo-web\src\main\resources\META-INF\spring" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -127,23 +152,61 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="APP" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="app-demo-web" />
+  <component name="RunManager" selected="Application.DemoJdk18">
+    <configuration name="DemoJdk18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mini.DemoJdk18" />
+      <module name="app-demo-dao" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mini.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mini.APP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DemoThread" />
+      <module name="app-demo-client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mini.NioTest" />
+      <module name="app-demo-dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mini.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Numbers" />
+      <module name="app-demo-client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TomcatStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TomcatStart" />
+      <module name="app-demo-client" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.APP" />
+        <item itemvalue="Application.DemoJdk18" />
+        <item itemvalue="Application.TomcatStart" />
+        <item itemvalue="Application.DemoThread" />
+        <item itemvalue="Application.NioTest" />
+        <item itemvalue="Application.Numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +226,57 @@
       <workItem from="1578320945652" duration="226000" />
       <workItem from="1578710241005" duration="801000" />
       <workItem from="1578711073352" duration="1979000" />
-      <workItem from="1578713074935" duration="4582000" />
+      <workItem from="1578713074935" duration="7434000" />
+      <workItem from="1578742690212" duration="3654000" />
+      <workItem from="1578747228632" duration="1329000" />
+      <workItem from="1578759767792" duration="1149000" />
+      <workItem from="1579932495636" duration="2574000" />
+      <workItem from="1580019653066" duration="1560000" />
+      <workItem from="1580092227744" duration="2812000" />
+      <workItem from="1582683338378" duration="10235000" />
+      <workItem from="1582983110702" duration="7351000" />
+      <workItem from="1583037709051" duration="4996000" />
+      <workItem from="1583066208939" duration="2204000" />
+      <workItem from="1583475759361" duration="8547000" />
+      <workItem from="1583824564767" duration="768000" />
+      <workItem from="1584080638763" duration="896000" />
+      <workItem from="1584161809758" duration="6944000" />
+      <workItem from="1584240694132" duration="560000" />
+      <workItem from="1584328820726" duration="437000" />
+      <workItem from="1584340096602" duration="3970000" />
+      <workItem from="1584769261666" duration="4496000" />
+      <workItem from="1584956015952" duration="4190000" />
+      <workItem from="1585314604050" duration="894000" />
+      <workItem from="1585360402886" duration="5408000" />
+      <workItem from="1585460086909" duration="627000" />
+      <workItem from="1585642970765" duration="25726000" />
+      <workItem from="1585791684916" duration="6081000" />
+      <workItem from="1585878040686" duration="3614000" />
+      <workItem from="1586079260909" duration="1117000" />
+      <workItem from="1586142771219" duration="600000" />
+      <workItem from="1586320474637" duration="6661000" />
+      <workItem from="1586397140807" duration="248000" />
+      <workItem from="1586509899965" duration="376000" />
+      <workItem from="1586510711882" duration="601000" />
+      <workItem from="1586518913091" duration="1190000" />
+      <workItem from="1586595780649" duration="6045000" />
+      <workItem from="1586690029441" duration="1370000" />
+      <workItem from="1586763716430" duration="7259000" />
+      <workItem from="1586845010738" duration="6739000" />
+      <workItem from="1587358465392" duration="6331000" />
+      <workItem from="1587389019331" duration="8608000" />
+      <workItem from="1587528409302" duration="13199000" />
+      <workItem from="1587627103021" duration="10706000" />
+      <workItem from="1587700417503" duration="2081000" />
+      <workItem from="1587739349196" duration="7481000" />
+      <workItem from="1587825242252" duration="626000" />
+      <workItem from="1587868455955" duration="2889000" />
+      <workItem from="1587883615710" duration="2910000" />
+      <workItem from="1587944288823" duration="17775000" />
+      <workItem from="1588034804847" duration="3370000" />
+      <workItem from="1588323445426" duration="6010000" />
+      <workItem from="1588387954018" duration="15043000" />
+      <workItem from="1588757733845" duration="2028000" />
     </task>
     <servers />
   </component>
@@ -182,5 +295,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/developmentTool/jdk/jdk-install-dir/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

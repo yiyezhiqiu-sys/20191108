@@ -1,0 +1,3 @@
+com\mini\service\HelloWorldService.class
+com\mini\client\HelloConsumerService.class
+com\mini\service\HelloWorldServiceImpl.class

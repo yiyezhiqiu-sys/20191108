@@ -1,0 +1,62 @@
+----------------------------------------------------------------------------1服务的优先级：
+dubboadmin: http://localhost:8080/dubbo-admin/   登陆用户名称密码   guest/guest
+
+方法级优先，接口级次之，全局配置再次之。
+如果级别一样，则消费方优先，提供方次之。
+----------------------------------------------------------------------------2服务监控：搭建管理控制台的war包和监控平台的jar包。
+下载dobbo源码  -->vn  clean  package  -Dmaven.test.skip=true-->
+[INFO]  dubbo-simple  ......................................  SUCCESS  [0.017s]
+[INFO]  dubbo-registry-simple  .............................  SUCCESS  [5.246s]
+[INFO]  dubbo-monitor-simple  ..............................  SUCCESS  [11.301s]
+[INFO]  dubbo-admin  .......................................  SUCCESS  [11.472s]
+[INFO]  dubbo-demo  ........................................  SUCCESS  [0.034s]
+进入/Users/xxx/Downloads/dubbo-2.5.x/dubbo-admin/target目录，会发现生成了dubbo-admin-2.5.10.war。
+进入/Users/xxx/Downloads/dubbo-2.5.x/dubbo-simple/dubbo-monitor-simple/target目录，会发现生成了dubbo-monitor-simple-2.5.10-assembly.tar.gz。
+<dubbo:monitor  protocol="registry"/>
+
+(1)管理控制台的搭建
+开源的Dubbo的服务管理控制台是阿里巴巴内部裁剪版本，开源部分主要包含：路由规则/动态配置/服务降级/访问控制/权重调整/负载均衡等管理功能。
+修改然后进入  dubbo-admin-2.5.10/WEB-INF目录修改dubbo.properties文件：
+dubbo.registry.address=zookeeper://127.0.0.1:2181
+dubbo.admin.root.password=root
+dubbo.admin.guest.password=guest
+将war包部署在tomcat等web服务器上
+
+(2)监控平台搭建
+
+Dubbo-Monitor主要用来统计服务的调用次数和调用时间，服务消费者和提供者，在内存中累计调用次数和调用时间，定时每分钟发送一次统计数据到监控中心，监控中心则使用数据绘制图表来显示。
+dubbo-2.5.x/dubbo-simple/dubbo-monitor-simple/target  目录，会发现生成了  dubbo-monitor-simple-2.5.10-assembly.tar.gz:
+解压  dubbo-monitor-simple-2.5.10-assembly.tar.gz,进入  dubbo-monitor-simple-2.5.10/conf/  目录修改dubbo.properties:
+解压  dubbo-monitor-simple-2.5.10-assembly.tar.gz,进入  dubbo-monitor-simple-2.5.10/conf/  目录修改dubbo.properties:
+其中  dubbo.registry.address=zookeeper://127.0.0.1:2181  设置注册中心地址，这里设置为Zookeeper的地址。
+
+dubbo.protocol.port=7070,是Monitor提供的远程服务监听端口，服务提供者和消费者会调用这个端口提供的服务，发送统计信息到Monitor。
+
+dubbo.charts.directory和dubbo.statistics.directory为Monitor本地存放的监控数据文件的位置。
+
+dubbo.jetty.port=8081,设置Jetty容器的监听地址，类似于Tomcat的8080端口，这里设置为8081。
+
+然后进入dubbo-monitor-simple-2.5.10/bin，执行  sh  start.sh  启动Monitor：
+
+服务消费方和提供方需要显示开启Monitor。
+如果使用Spring配置的服务消费方和提供方，则需要在对应xml添加下面配置：
+<dubbo:monitor  protocol="registry"/>
+表示服务提供方和消费方从服务注册中心发现监控中心（Monitor）地址。
+如果使用的Dubbo  API方式需要首先创建一个MonitorConfig对象。
+MonitorConfig  monitorConfig  =  new  MonitorConfig();
+monitorConfig.setProtocol("registry");
+================================
+
+集群搭建
+1首先在dataDir 属性值所指示的路径下创建myid 如1表示“1”好服务器
+2在conf/zoo.cfg文件中配置“server.1 = ip : 自定义和leader交换信息端口 : 自定义选举leader端口”
+3最低配置3台半数原则
+3逐个启动第一台可能包 connect refused 没关系因为其他节点集群端口还未启动，整个集群都启动后都正常了。
+zoo.cfg配置文件配置项说明
+tickTime: zookeeper中使用的基本时间单位，毫秒值，比如可以设为1000，那么基本时间单位就是1000ms，也就是1s。
+initLimit: zookeeper集群中的包含多台server，其中一台为leader，集群中其余的server为follower，initLimit参数配置初始化连接时，follower和leader之间的最长心跳时间。如果该参数设置为5，就说明时间限制为5倍tickTime，即5*1000=5000ms=5s。
+syncLimit: 该参数配置leader和follower之间发送消息，请求和应答的最大时间长度。如果该参数设置为2，说明时间限制为2倍tickTime，即2000ms。
+dataDir: 数据目录. 可以是任意目录，一般是节点安装目录下data目录。
+dataLogDir: log目录, 同样可以是任意目录，一般是节点安装目录下的logs目录。如果没有设置该参数，将使用和dataDir相同的设置。
+clientPort: 监听client连接的端口号。
+server.X=A:B:C 其中X是一个数字, 表示这是第几号server，它的值和myid文件中的值对应。A是该server所在的IP地址。B是配置该server和集群中的leader交换消息所使用的端口。C配置选举leader时所使用的端口。由于配置的是伪集群模式，所以各个server的B, C参数必须不同，如果是真正分布式集群，那么B和C在各个节点上可以相同，因为即使相同由于节点处于不同的服务器也不会导致端口冲突。

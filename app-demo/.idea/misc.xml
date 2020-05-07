@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/app-demo-web" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mini" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

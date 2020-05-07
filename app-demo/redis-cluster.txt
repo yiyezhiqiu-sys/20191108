@@ -1,0 +1,84 @@
+redis集群比redis哨兵模式更高可用
+哨兵模式下，没有解决单点的高并发的问题，所有的写还是在master上，每个服务都是全量的企且备份也较慢
+集群模式下 ，不但解决并发问题，还解决了数据分片(每个节点不是全量数据)，和数数据备份(每个节点都是主从模式)问题
+
+1下载：http://redis.io/download
+linxu 上用 wget 下载
+2安装步骤
+1）安装gcc
+yum install gcc
+2)把安装好的redis.tar.gz放在/usr/local文件夹下，并解压
+3）进入到解压好的redis目录下进行编译
+make
+4)进入redis/src/目录下进行安装，安装完成验证src目录下是否生成了redis-server redis-cli
+make-install
+5)建立两个文件夹存放redis命令和配置文件
+mkdir -p /usr/local/redis/etc
+mkdir -p /usr/local/redis/bin
+6)把redis下的redis.conf复制到/usr/local/etc/下
+cp redis.conf /usr/local/etc/
+7)移动redis/src里的“几个”文件如s到 /usr/local/redis/bin下
+mv mkreleasehdr.sh redis-benchmark redis-check-dump redis-cli redis-server /usr/local/redis/bins
+8)启动并指定配置文件
+修改redis.conf  添加daemonize yes 再启动配置文件就是后台启动
+9）查看是否有redis服务或者查看端口
+netstat -tunpl |grep 6379
+
+10) 进入redis客户端
+执行 /redis-cli
+
+11)退出进程
+pkill redis-server
+kill 进程号
+redis-cli shutdown
+192.168.1.8
+----------------
+vim 进去后 用 /port 可搜索到port位置
+集群模式搭建，3主3从
+mkdir -p /redis-cluster
+cd redis-cluter mkdir 8001 、 mkdir 8002 、 mkdir 8003 、 mkdir 8004 、 mkdir 8005 、mkdir 8006
+至少需要3个master节点(选举过半原则，奇数)
+把redis.conf 配置文件分别拷贝到不同的文件夹下。
+第一步修改配置文件
+1）deamonize yes ,2）修改端口
+3)bind ip（伪集群必须绑定本机ip，这里方便redis集群定位机器，不绑定可能出现循环查找集群机器节点）
+4）dir redis-cluster/8001/  指定数据文件存放位置必须指定不同目录位置，不然回丢失数据
+5cluster-enabled yes（启动集群模式
+6） cluster-config-file-nodes-8001.conf(这里800x最好和port对应上)
+7）ckuster-node-timeout 5000 集群之间 通讯时间
+8)appendonly yes   日志
+第二步把修改后的文件分别copy到不用的文件夹下，注意要修改2，4，6项里的端口号可以用批量替换 :%s/原字符串/目的字符串/g
+第三步 由于redis集群使用ruby 命令 需要安装ruby
+yum install ruby
+yum install rubygems
+gem install redis --version3.0.0 (安装redis和reby接口)
+第四步 分别启动6个redis实列
+第五步 在redis的安装目录下 执行./redis-trib.rb命令创建redis集群
+cd redis/src
+./redis-trib.rb create -replicas 1 ip:8001 ... ip :8006   (1表示 master=3主节点个数/slave=3从节点个数 =1 ，主从节点怎么规定了？redis规定如果是master:slave=1:1那么前面3个是主节点后面3个是从节点，第一个节点对应第一个从节点依次力推)
+警告 redis 5.0使用的是redis-cli创建集群不适用redis-trib.rb
+redis-cli -a cyclone --cluster create --cluster-replicas 1 192.168.1.5:63791 192.168.1.5:63792 192.168.1.5:63793 192.168.1.5:63894 192.168.1.5:63794 192.168.1.5:63795 192.168.1.5:63796 
+
+
+第六步验证集群
+连接任意一个客户端 ./redis-cli -c -h -p (-c表集群模式 ，指定ip 端口)
+进行验证 cluster info(查看集群信息)  cluster nodes(查看节点列表)
+3）进行数据验证
+4）关闭集群则需要逐个关闭，
+/redis-cli -c -h ip 800* shutdown
+如果数据set 到8001上 取数据请求在8003上那么在8003上会发生"
+redirect to slot [12933] ip:8001"
+hashslot
+
+问题：需要升级ruby
+ERROR:  Error installing redis:    redis requires Ruby version >= 2.2.2.
+解决方案：升级ruby的版本curl -L get.rvm.io | bash -s stable
+首先你会在下载的目录下找到rvm-1.29.4.tgz包，解压后，进行source 一下。
+#到 /usr/local/rvm/archives目录下，要解压rvm-1.29.4包，再sourceroot用户：source  /usr/local/rvm/archives/rvm-1.29.4/scripts/rvm
+rvm list known  #查看版本
+rvm install 2.4.6  #安装2.4.6版本
+Continuing with compilation. Please read 'rvm help mount' to get more information on binary rubies.df: ‘/usr/local/rvm/archives/rvm-1.29.5/rubies’: No such file or directoryNot enough space (0MB) to install ruby (440MB).  cd: /usr/local/rvm/archives/rvm-1.29.5/archives: No such file or directory
+穿件rubies目录
+ gem install redis # 进行 Redis 接口安装
+
+
